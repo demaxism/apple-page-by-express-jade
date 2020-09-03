@@ -1,0 +1,59 @@
+doctype html
+html(lang="zh-Hans")
+  head
+    block title
+      title Apple
+    link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+    link(rel="stylesheet", href="/style.css")
+    block stylesheets
+    script(src="http://code.jquery.com/jquery-1.10.0.min.js")
+    block scripts
+
+  body
+    // header
+    .container-fluid.bg-dark.text-light
+      ul.nav.nav-fill
+        li.nav-item
+          a.nav-link(href='/')
+            span.fa.fa-apple
+        li.nav-item
+          a.nav-link(href='/') Mac
+        li.nav-item
+          a.nav-link(href='/') iPad
+        li.nav-item
+          a.nav-link(href='/iphone') iPhone
+        li.nav-item
+          a.nav-link(href='/') Watch
+        li.nav-item
+          a.nav-link(href='/') Music
+        li.nav-item
+          a.nav-link(href='/') Support
+        li.nav-item
+          a.nav-link(href='/')
+            span.fa.fa-search
+        li.nav-item
+          a.nav-link(href='/')
+            span.fa.fa-shopping-bag
+
+    .container
+      .row.gap
+      block content
+
+      .row.gap
+      hr
+      // footer
+      ul.nav.justify-content-center.small.text-dark
+        li.nav-item
+          a.nav-link 隐私政策
+        li.nav-item
+          a.nav-link 使用条款
+        li.nav-item
+          a.nav-link 销售政策
+        li.nav-item
+          a.nav-link 法律信息
+        li.nav-item
+          a.nav-link 网站地图
+      .row.gap-sm
+
+

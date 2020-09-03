@@ -1,0 +1,28 @@
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.gap {
+  height: 80px;
+}
+
+.gap-sm {
+  height: 20px;
+}
+
+.gap-md {
+  height: 100px;
+}
+
+.btn-round {
+  border-radius: 20px;
+}
+
+.pl-md {
+  padding-left: 50px;
+}
