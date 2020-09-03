@@ -1,7 +1,7 @@
 # Express Demo Apple Website with Jade(pug) template
-# 一个基于Express的Jade模板引擎的苹果网站示例网站
 
-### A project demonstrate the usage of Jade(pug) template engine:
+* 一个基于Express的Jade模板引擎的苹果网站示例网站
+* A project demonstrate the usage of Jade(pug) template engine:
 
 ## Installation & Setup
 1. Install [Node.js](https://nodejs.org/)
